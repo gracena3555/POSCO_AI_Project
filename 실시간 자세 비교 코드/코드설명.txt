@@ -1,0 +1,18 @@
+run_video_web_image_save: best pose, worst pose 각각 3개씩 저장
+ComparatorNet.h5:기존 yopoco 학습 모델
+ComparatorNet.ipynb: Comparator Net 학습시키는 코드
+Cosine simility: 코사인유사도 코드, 성능측정
+demo.py: yopoco demo코드
+get_openpose_coords_1.py: openpose를 통해 관절 좌표 추출하여 Comparator Net 학습데이터 만드는 코드
+save.ipynb:동영상 프레임별 이미지 저장
+run_video_with_angle.py: 각도 계산 후 코멘트 출력
+cal_angle: 각도 계산 위한 각도 정의
+cosine.py: 코사인 유사도를 통한 관절좌표 비교
+run_model_cred_1.py: 정확도 측정
+model_total.h5: 성능 가장 좋았던 학습 모델
+run_video_web2.py: 웹캠(user)와 유튜브 강사 동영상 자세비교 
+
+참고 오픈소스 및 논문: 
+https://github.com/nosyarlin/YoPoCo
+http://jasonswee.com/wp-content/uploads/2019/05/CV_Report.pdf
+
